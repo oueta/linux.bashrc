@@ -1,3 +1,3 @@
 function calc() {
-    echo $1 | bc
+    echo "scale=2; $1" | bc
 }
